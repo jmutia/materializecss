@@ -18,15 +18,41 @@ body {
 
 
 /*---- for showcase content ----*/
-/*------------------------------
-#panel-3 {
-    background-image: url(../images/projects-showcasebg.jpeg);
+/*------------------------------*/
+
+#panel-1 {
+    background-image: url(../images/about-showcasebg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+/*
+#panel-1 h2, #panel-1 p {
+    color: #1976d2;
+} */
+#panel-2 {
+    background-image: url(../images/clients-showcasebg.jpeg);
     background-size: cover;
 }
+/*
+#panel-2 h2, #panel-2 p {
+    color: #1976d2;
+} */
+#panel-3 {
+    background-image: url(../images/projects-showcasebg.jpg);
+    background-size: cover;
+}
+/*
 #panel-3 h2, #panel-3 p {
     color: #1976d2;
+} */
+#panel-4 {
+    background-image: url(../images/contact-showcasebg.jpg);
+    background-size: cover;
 }
-
+/*
+#panel-4 h2, #panel-4 p {
+    color: #1976d2;
+} */
 
 
 /*
