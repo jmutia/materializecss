@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>Home Page - Materialize CSS Framework Template</title>
+        
+        <!-- CSS -->
+        <link type="text/css" rel="stylesheet" href="css/styles.css">
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    
+        
+    </head>
+    <body>
+        
+<!-- For Navigation w/ Mobile Collapse feature -->
+    <header>
+        <nav>
+        <div class="nav-wrapper grey darken-4" >
+            <a href="#!" class="brand-logo grey-text text-lighten-4">Logo</a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons blue-text text-darken-2">menu</i></a>
+            <ul class="right hide-on-med-and-down" id="nav-links">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Clients</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>    
+          <ul class="side-nav blue darken-4" id="mobile-demo">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Clients</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        </nav>     
+    </header>
+<!-- End of Navigation Header -->
+        
+<!--For Main Content w/ Carousel Slider feature -->
+    <main>    
+        <div class="container"> 
+            <div class="row">
+                <div class="col s12 m12 l12">
+<!--                    <span class="flow-text blue-text">This is my Main Content</span> -->             
+                <!--For Main Showcase-->    
+                <div class="carousel carousel-slider center" data-indicators="true">
+                    <div class="carousel-fixed-item center">
+                      <a class="btn waves-effect white grey-text darken-text-2">button</a>
+                    </div>
+                    <div class="carousel-item red white-text" href="#one!" id="panel-1">
+                      <h2>First Panel</h2>
+                      <p>This is your first panel</p>
+                    </div>
+                    <div class="carousel-item amber white-text" href="#two!">
+                      <h2>Second Panel</h2>
+                      <p class="white-text">This is your second panel</p>
+                    </div>
+                    <div class="carousel-item green white-text" href="#three!" id="panel-3">
+                      <h2>Third Panel</h2>
+                      <p>This is your third panel</p>
+                    </div>
+                    <div class="carousel-item blue white-text" href="#four!">
+                      <h2>Fourth Panel</h2>
+                      <p class="white-text">This is your fourth panel</p>
+                    </div>
+                </div>
+                    
+                </div>
+            </div>  
+        </div> 
+    </main> 
+<!-- end of main content wrapper-->
+        
+<!-- For Footer w/ sticky footer feature -->
+   
+    <footer class="page-footer black">
+          <div class="footer-copyright">
+            <div class="container">
+            © 2018 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+          </div>
+    </footer>    
+        
+        
+        
+
+        <!--Import jQuery before materialize.js-->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script src="js/init.js"></script>
+        
+    </body>
+</html>
